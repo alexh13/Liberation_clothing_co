@@ -1,0 +1,93 @@
+*{ /* the asteriks affects all elements */
+    margin: 0; /* margin is white space between boxes*/
+    padding: 0; /* */
+    box-sizing: border-box;
+    letter-spacing: 120%
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+body {
+    font-family: sans-serif;
+    font-size: 18px; /*set font to 18 pixel size */
+}
+
+h1, h2 {
+    color: #1c4f95; /* use command+e to open the color window*/
+    font-family: serif;
+
+}
+
+h1 {   
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+h2 { 
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.main-text {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.author-text { 
+    font-size: 22px; /*how to edit a set html class*/
+    float: left; /* makes the text float left of pic*/
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.container {
+    width: 1140px; /* general screen size */
+     /* setting text margins*/
+    margin: 20px auto 0 auto;/* top-right-bottom-left*/
+}
+
+.blog-post {
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    position: relative;
+}
+
+.other-posts {
+    width: 25%;
+    float: left;
+}
+
+.author-box {  /*add a background: color to a class to see it easier when working with it*/
+    padding-top: 20px; /* sets the border to 1px, solid and color*/
+}
+
+.other {
+    margin-bottom: 40px;
+    
+}
+
+.author-box img { /* this selects images only inside other box*/
+    height: 100px;
+    width: 100px;
+    border-radius: 50%; /* makes picture round*/
+    float: left; 
+}
+
+.blog-post img { /* edits all imgs in blog post*/
+    height: 150px;
+    width: auto;
+}
+
+.date { /* date class created*/
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
